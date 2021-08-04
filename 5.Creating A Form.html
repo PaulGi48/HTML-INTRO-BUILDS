@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <title> Creating A Form </title>
+</head>
+<style>
+    body {
+        background-color: yellowgreen;
+    }
+</style>
+
+<body>
+
+    <h1> <u> REGISTERATION 2023/2024 </u> </h1>
+    <form>
+        <p> NAME : <input type="text" name="WHAT IS YOUR NAME?" /> </p>
+        <p> AGE :<input type="number" name="WHAT IS YOUR AGE?" /> </p>
+        <p> PASSWORD : <input type="password" name="PASSWORD" /> </p>
+        <br> Description: <textarea rows="1" cols="25" name="Description"> Description Here </textarea>
+        <p>Gender: Male <input type="checkbox" name="M" value="on"> Female : <input type="checkbox" name="F" value="on"> </p>
+        <p>
+            SUBJECT: <select name="SUBJECT">
+        <option value="CSC 101" selected>CSC 101</option>
+        <option value="CSC 102" selected>CSC 102</option>
+        <option value="CSC 103" selected>CSC 103</option>
+        <option value="CSC 104" selected>CSC 104</option>
+    </select>
+
+        </p>
+        <p>
+            YEAR : <select class="YEAR">
+                <option value="100" selected>100</option>
+                <option value="200" selected>200</option>
+                <option value="300" selected>300</option>
+                <option value="400" selected>400</option>
+
+            </select>
+        </p>
+        UPLOAD: <input type="file" name="fileupload" accept="IMAGE/*">
+
+    </form>
+</body>
+
+</html>
